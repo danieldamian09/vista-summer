@@ -318,16 +318,20 @@
 }
 
 
-.content_intro {
+
+
+.content_capsula{
   width: 100%;
   height: 100vh;
   position: relative;
+  display: none;
 }
 
-.content_capsula {
-  width: 100%;
-  height: 100vh;
-  position: relative;
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco{
   display: none;
 }
 
@@ -350,6 +354,14 @@
 }
 
 /* Intro */
+
+.content_intro {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: none;
+}
+
 .container__intro {
   background-image: url(../img/kiosko.png);
   background-position: center;

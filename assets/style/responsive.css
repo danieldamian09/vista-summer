@@ -1,6 +1,10 @@
 /* media query */
 @media (max-width: 700px) and (orientation: landscape) {
 
+  .content__bienvenida{
+    display: none;
+  }
+
   .container__intro {
     margin: 0 auto;
   }
