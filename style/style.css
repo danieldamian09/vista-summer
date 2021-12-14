@@ -57,7 +57,7 @@
   margin-top: 1rem;
 }
 
-.bienvenida__text p{
+.bienvenida__text p {
   font-family: 'Nueland-Medium', sans-serif;
   font-size: 18px;
   color: #fff;
@@ -66,20 +66,20 @@
   text-align: center;
 }
 
-.girar__tel{
+.girar__tel {
   display: flex;
   justify-content: flex-end;
   margin-top: 0.8rem;
 }
 
-.girar_tel_text{
+.girar_tel_text {
   width: 90%;
   background: rgb(0 0 0 / 67%);
   padding: 0.8rem;
   margin-bottom: 0.5rem;
 }
 
-.girar_tel_text p{
+.girar_tel_text p {
   font-family: 'Nueland-Grotesk', sans-serif;
   font-size: 18px;
   line-height: 22px;
@@ -88,15 +88,17 @@
   text-align: left;
 }
 
-.bienvenida__cajettilla{
+.bienvenida__cajettilla {
   width: 100%;
   display: flex;
   align-items: flex-end;
 }
 
-.bienvenida__cajettilla img{
+.bienvenida__cajettilla img {
   width: 100%;
   height: 17.2rem;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Instancia */
