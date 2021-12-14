@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+.app:-webkit-full-screen{
+  width: 100%;
+  height: 100%;
+}
+
 .content_intro {
   width: 100%;
   height: 100vh;

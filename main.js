@@ -25,6 +25,10 @@ if(pasoActual === 0){
 //   })
 // }
 
+if (app.requestFullscreen) {
+  app.requestFullscreen();
+}
+
 capsulaUno.addEventListener('click', function(){
   containerUno.style.display = 'block';
   console.log("Estoy en la capsula uno")
