@@ -109,7 +109,7 @@
   background-image: url(../img/fondo-instancia-uno.png);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -258,6 +258,24 @@
   height: 100vh;
   position: relative;
   display: none;
+}
+
+/* Instancia 6 */
+
+.container__instancia_six {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__instancia_six p{
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 /* Intro */
