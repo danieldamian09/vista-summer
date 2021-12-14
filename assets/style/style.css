@@ -110,6 +110,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
+  background: #000;
 }
 
 /* Instancia uno */
@@ -200,7 +201,7 @@
 
 .instancia__two_img img {
   width: 74em;
-  height: 35em;
+  height: 33em;
 }
 
 .instancia__two_text {
@@ -244,7 +245,7 @@
 
 .instancia__three_img img {
   width: 74em;
-  height: 35em;
+  height: 33em;
 }
 
 .instancia__three_price {
@@ -279,7 +280,7 @@
 
 .instancia__four_img img {
   width: 74em;
-  height: 35em;
+  height: 33em;
 }
 
 .instancia__four_title {
@@ -315,7 +316,7 @@
 
 .instancia__five_img img {
   width: 74em;
-  height: 35em;
+  height: 33em;
 }
 
 .instancia__five_title {
@@ -376,6 +377,7 @@
   height: 100vh;
   position: relative;
   display: none;
+  background: #000;
 }
 
 .container__intro {
