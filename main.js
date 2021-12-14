@@ -15,6 +15,8 @@ var containerTres = document.querySelector('.tres')
 var containerCuatro = document.querySelector('.cuatro')
 var containerCinco = document.querySelector('.cinco')
 
+
+const audioUno = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 1.mp4')
 const audioDos = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 2.mp4')
 const audioTres = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 3.mp4')
 const audioCuatro = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 4.mp4')
@@ -76,18 +78,25 @@ if(pasoActual === 1){
 //   }
 // });
 
+intro.addEventListener('load', function (e) {
+  pasoActual = 1;
+  console.log(pasoActual);
+  audioUno.play()
+})
+
 capsulaUno.addEventListener('click', function () {
   containerUno.style.display = 'block';
-  pasoActual = 1;
+  pasoActual = 2;
   console.log(pasoActual)
   
   audioDos.play()
+  audioUno.pause()
 
 })
 
 capsulaDos.addEventListener('click', function () {
   containerDos.style.display = 'block';
-  pasoActual = 2;
+  pasoActual = 3;
   console.log(pasoActual)
   
   audioTres.play()
@@ -97,7 +106,7 @@ capsulaDos.addEventListener('click', function () {
 
 capsulaTres.addEventListener('click', function () {
   containerTres.style.display = 'block';
-  pasoActual = 3;
+  pasoActual = 4;
   console.log(pasoActual)
   
   audioCuatro.play()
@@ -106,7 +115,7 @@ capsulaTres.addEventListener('click', function () {
 
 capsulaCuatro.addEventListener('click', function () {
   containerCuatro.style.display = 'block';
-  pasoActual = 4;
+  pasoActual = 5;
   console.log(pasoActual)
   
   audioCinco.play()
@@ -115,7 +124,7 @@ capsulaCuatro.addEventListener('click', function () {
 
 capsulaCinco.addEventListener('click', function () {
   containerCinco.style.display = 'block';
-  pasoActual = 5;
+  pasoActual = 6;
   console.log(pasoActual)
   
   audioSeis.play()

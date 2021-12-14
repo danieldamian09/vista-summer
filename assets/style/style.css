@@ -35,12 +35,15 @@
   background: url(../img/bienvenida-fondo.png);
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .bienvenida__text {
   display: flex;
   align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -50,11 +53,12 @@
   color: #fff;
   text-transform: uppercase;
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .bienvenida__text img {
   width: 75%;
-  margin-top: 1rem;
+  margin-top: 1rem auto;
 }
 
 .bienvenida__text p {
@@ -105,7 +109,7 @@
 .content__instancia {
   width: 100%;
   height: 100vh;
-
+  position: relative;
 }
 
 /* Instancia uno */
@@ -143,18 +147,22 @@
 
 .instancia__one_marlboro-vista-summer {
   width: 80%;
-  height: 18%;
-  margin-left: 10%;
+  height: 13%;
+  margin: 0 auto;
 }
 
 .instancia__one_text {
   font-family: 'Nueland-Medium', sans-serif;
-  font-size: 26px;
+  font-size: 1.3rem;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
   width: 90%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .instancia__text_shadow {
@@ -198,6 +206,10 @@
 .instancia__two_text {
   width: 50%;
   margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .instancia__two_title {
@@ -217,11 +229,11 @@
 /* Instancia tres */
 .container__instancia_three {
   display: flex;
-  background-image: url(../img/fondo-instancia-uno.png);
+  background-image: url(../img/fondo-instancia-tres.png);
   background-position: center;
   background-size: cover;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
 }
 
 .instancia__three_img {
@@ -244,7 +256,7 @@
 
 .instancia__three_price img {
   width: 50%;
-  height: 50%;
+  height: 40%;
   display: block;
   margin: 0 auto;
 }
@@ -273,6 +285,8 @@
 .instancia__four_title {
   width: 100%;
   margin-top: 8%;
+  display: flex;
+  justify-content: center;
 }
 
 .instancia__four_title p {
@@ -307,6 +321,8 @@
 .instancia__five_title {
   width: 100%;
   margin-top: 8%;
+  display: flex;
+  justify-content: center;
 }
 
 .instancia__five_title p {
@@ -320,7 +336,7 @@
 
 
 
-.content_capsula{
+.content_capsula {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -331,7 +347,7 @@
 .dos,
 .tres,
 .cuatro,
-.cinco{
+.cinco {
   display: none;
 }
 
@@ -588,7 +604,7 @@
   left: 50%;
   /* margin-left: -13px; */
   font-size: 70px;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 
@@ -609,7 +625,7 @@
   left: 50%;
   /* margin-left: -13px; */
   font-size: 70px;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .go-up .fa {
