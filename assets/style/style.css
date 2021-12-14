@@ -20,7 +20,7 @@
 }
 
 .turnDeviceNotification {
-  background-image: url('../img/portrait.jpg');
+  background-image: url(../img/portrait.jpg);
   background-size: cover;
 }
 
