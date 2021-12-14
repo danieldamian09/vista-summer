@@ -2,3 +2,8 @@
   font-family: Nueland-Medium;
   src: url(../fonts/Neuland\ Grotesk\ Medium\ Expanded.ttf);
 }
+
+@font-face {
+  font-family: Nueland-Grotesk;
+  src: url(../fonts/NeulandGrotesk-CondensedRegular.ttf);
+}

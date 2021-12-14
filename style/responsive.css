@@ -153,3 +153,9 @@
     font-size: 1.3rem;
   }
 }
+
+@media (min-width: 768px) {
+  .content__bienvenida{
+    display: none;
+  }
+}
