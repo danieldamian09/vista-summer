@@ -55,7 +55,8 @@ if (pasoActual === 0) {
 capsulaUno.addEventListener('click', function () {
   containerUno.style.display = 'block';
   console.log("Estoy en la capsula uno")
-  const audioDos = new Audio('./audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 2.mp4')
+  const audioDos = new Audio()
+  audioDos.src= './audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 2.mp4'
   audioDos.play()
 
 })
