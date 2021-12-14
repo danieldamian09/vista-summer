@@ -15,6 +15,12 @@ var containerTres = document.querySelector('.tres')
 var containerCuatro = document.querySelector('.cuatro')
 var containerCinco = document.querySelector('.cinco')
 
+const audioDos = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 2.mp4')
+const audioTres = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 3.mp4')
+const audioCuatro = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 4.mp4')
+const audioCinco = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 5.mp4')
+const audioSeis = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 6.mp4')
+
 
 if(pasoActual === 1){
   intro.style.display = 'block'
@@ -74,7 +80,7 @@ capsulaUno.addEventListener('click', function () {
   containerUno.style.display = 'block';
   pasoActual = 1;
   console.log(pasoActual)
-  const audioDos = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 2.mp4')
+  
   audioDos.play()
 
 })
@@ -83,30 +89,35 @@ capsulaDos.addEventListener('click', function () {
   containerDos.style.display = 'block';
   pasoActual = 2;
   console.log(pasoActual)
-  const audioTres = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 3.mp4')
+  
   audioTres.play()
+  audioDos.pause()
+  
 })
 
 capsulaTres.addEventListener('click', function () {
   containerTres.style.display = 'block';
   pasoActual = 3;
   console.log(pasoActual)
-  const audioCuatro = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 4.mp4')
+  
   audioCuatro.play()
+  audioTres.pause()
 })
 
 capsulaCuatro.addEventListener('click', function () {
   containerCuatro.style.display = 'block';
   pasoActual = 4;
   console.log(pasoActual)
-  const audioCinco = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 5.mp4')
+  
   audioCinco.play()
+  audioCuatro.pause()
 })
 
 capsulaCinco.addEventListener('click', function () {
   containerCinco.style.display = 'block';
   pasoActual = 5;
   console.log(pasoActual)
-  const audioSeis = new Audio('./assets/audios/Fede Pollevik Marlboro Vista Summer Fusion Loc 6.mp4')
+  
   audioSeis.play()
+  audioCinco.pause()
 })
