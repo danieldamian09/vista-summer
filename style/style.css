@@ -1,0 +1,518 @@
+:root {
+  font-size: 16px;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.content_capsula {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* Intro */
+.container__intro {
+  background-image: url(../img/kiosko.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container__intro p {
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 36px;
+  color: #fff;
+  width: 950px;
+  text-transform: uppercase;
+  margin-top: 92px;
+  text-align: center;
+}
+
+
+/* Capsula 1 */
+
+.container__one {
+  display: flex;
+  background-image: url(../img/kiosko.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.container__one .imagen-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.imagen-container img {
+  width: 80.62em;
+  height: 37em;
+}
+
+.text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container p {
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.marlboro-summer {
+  width: 85%;
+  height: 22%;
+
+}
+
+.one {
+  margin-top: 210px;
+}
+
+/* Capsula 2 */
+
+.container__two {
+  background-image: url(../img/fondo-vista-two.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+/* .container__two::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(9, 7, 7, 0.78);
+} */
+
+.imagen-container__two {
+  width: 40%;
+}
+
+.imagen-container__two img {
+  width: 70%;
+  height: 100%;
+}
+
+
+
+.text-container__two {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container__two p {
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  text-align: center;
+  width: 95%;
+}
+
+
+.two {
+  margin-top: 4rem;
+}
+
+/* Capsula 3 */
+
+.container__three {
+  display: flex;
+  background-image: url(../img/kiosko.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.container__three .imagen-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.price {
+  width: 30%;
+  height: 30%;
+  margin: 2rem auto;
+}
+
+
+.text-container .title {
+  margin-top: 1rem;
+}
+
+/* Capsula 4 */
+
+.text__four {
+  margin: 4rem auto;
+  width: 40%;
+}
+
+
+
+/* Capsula 5 */
+
+.container__five {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.five__text {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.five__text p {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Nueland-Medium', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+}
+
+.five__box{
+  width: 100%;
+  height: auto;
+}
+
+.five__box img{
+  width: 100%;
+  height: 90%;
+}
+.mesagge {
+  width: 100%;
+  /* padding: 1rem; */
+}
+
+.mesagge p {
+  width: 95%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+/* Animacion y estilo al boton de bajar */
+.go-down {
+  position: absolute;
+  bottom: 5px;
+  /* width: 26px;
+  height: 40px; */
+  display: block;
+  /* border-radius: 4px; */
+  text-align: center;
+  left: 50%;
+  /* margin-left: -13px; */
+  font-size: 70px;
+  z-index: 2;
+}
+
+
+.go-down .fa {
+  color: #ffffff;
+  -webkit-animation: goDown 1s ease infinite;
+  animation: goDown 1s ease infinite;
+}
+
+.go-up {
+  position: absolute;
+  top: 5px;
+  /* width: 26px;
+  height: 40px; */
+  display: block;
+  /* border-radius: 4px; */
+  text-align: center;
+  left: 50%;
+  /* margin-left: -13px; */
+  font-size: 70px;
+  z-index: 2;
+}
+
+.go-up .fa {
+  color: #ffffff;
+  -webkit-animation: goDown 1s ease infinite;
+  animation: goDown 1s ease infinite;
+}
+
+@-webkit-keyframes goDown {
+  0% {
+    transform: translateY(0);
+    opacity: -5;
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes goDown {
+  0% {
+    transform: translateY(0);
+    opacity: -5;
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+/* Instancia */
+.content__instancia {
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+/* Instancia uno */
+.container__instancia_one {
+  display: flex;
+  background-image: url(../img/fondo-instancia-uno.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.instancia__one_img {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.instancia__one_img img {
+  width: 60.62em;
+  height: 27em;
+}
+
+.instancia__one_text{
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.instancia__one_title{
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.instancia__one_marlboro-vista-summer{
+  width: 80%;
+  height: 18%;
+  margin-left: 10%;
+}
+
+.instancia__one_text{
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 90%;
+  text-align: center;
+}
+
+.instancia__text_shadow{
+  width: 90%;
+  height: 18%;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-align: left;
+  background: rgb(0 0 0 / 67%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instancia__text_shadow p{
+  font-size: 1rem;
+  width: 90%;
+}
+
+/* Instancia dos */
+.container__instancia_two {
+  display: flex;
+  background-image: url(../img/fondo-instancia-uno.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.instancia__two_img {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.instancia__two_img img {
+  width: 74em;
+  height: 35em;
+}
+
+.instancia__two_text{
+  width: 50%;
+  margin-top: 10%;
+}
+
+.instancia__two_title{
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cigarrillo_doble{
+  width: 70%;
+  display: block;
+  margin: 10% auto;
+}
+
+/* Instancia tres */
+.container__instancia_three {
+  display: flex;
+  background-image: url(../img/fondo-instancia-uno.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.instancia__three_img {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.instancia__three_img img {
+  width: 74em;
+  height: 35em;
+}
+
+.instancia__three_price{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10%;
+}
+
+.instancia__three_price img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Instancia 4 */
+.container__instancia_four {
+  display: flex;
+  background-image: url(../img/fondo-instancia-uno.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.instancia__four_img {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.instancia__four_img img {
+  width: 74em;
+  height: 35em;
+}
+
+.instancia__four_title{
+  width: 100%;
+  margin-top: 8%;
+}
+
+.instancia__four_title p{
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Instancia 5 */
+.container__instancia_five {
+  display: flex;
+  background-image: url(../img/fondo-instancia-uno.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.instancia__five_img {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.instancia__five_img img {
+  width: 74em;
+  height: 35em;
+}
+
+.instancia__five_title{
+  width: 100%;
+  margin-top: 8%;
+}
+
+.instancia__five_title p{
+  font-family: 'Nueland-Medium', sans-serif;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+

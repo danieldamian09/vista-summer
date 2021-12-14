@@ -1,0 +1,155 @@
+/* media query */
+@media (max-width: 700px) and (orientation: landscape) {
+
+  .container__intro {
+    margin: 0 auto;
+  }
+
+  .container__intro p {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .imagen-container img {
+    width: 40rem;
+    height: 70%;
+  }
+
+  .text-container{
+    width: 42%;
+  }
+
+  .text-container p {
+    font-size: 0.8rem;
+  }
+
+  .marlboro-summer {
+    width: 90%;
+    height: 20%;
+    margin-top: 1rem;
+  }
+
+  .go-down {
+    bottom: 0.1rem;
+    font-size: 2.12rem;
+  }
+
+  .go-up {
+    top: 0.5rem;
+    font-size: 2.12rem;
+  }
+
+  .text-container__two p {
+    font-size: 0.8rem;
+    width: 60%;
+  }
+
+  .price {
+    width: 45%;
+    height: 30%;
+    margin: 0.5rem auto;
+  }
+
+  .text-container .title {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .text__four {
+    margin: 1rem auto;
+  }
+
+  .five__text p {
+    font-size: 10px;
+    margin-top: 0.2rem;
+  }
+
+
+  .mesagge {
+    padding: 0.2rem;
+    background: #000;
+  }
+
+  .mesagge p {
+    width: 95%;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Instancia */
+  .instancia__one_img img{
+    width: 40rem;
+    height: 70%;
+  }
+
+  .instancia__one_text{
+    margin-top: 1.5rem;
+  }
+  
+  .instancia__one_title{
+    font-size: 1rem;
+  }
+  
+  .instancia__one_marlboro-vista-summer{
+    width: 80%;
+    height: auto;
+    }
+  
+  .instancia__one_text{
+    font-size: 0.7rem;
+  }
+
+  .instancia__text_shadow{
+    width: 70%;
+    height: 25%;
+    margin: 1.5rem auto;
+  }
+  
+  .instancia__text_shadow p{
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .instancia__two_img img{
+    width: 40rem;
+    height: 70%;
+  }
+
+  .instancia__two_title{
+    font-size: 1.5rem;
+  }
+
+  .instancia__three_img img {
+    width: 40rem;
+    height: 70%;
+  }
+
+  .instancia__four_title{
+    width: 40%;
+  }
+
+  .instancia__four_title p{
+    font-size: 1.3rem;
+  }
+
+  .instancia__four_img img {
+    width: 40rem;
+    height: 70%;
+  }
+
+  .instancia__five_title{
+    width: 40%;
+  }
+
+  .instancia__five_img img {
+    width: 40rem;
+    height: 70%;
+  }
+
+  .instancia__five_title p{
+    font-size: 1.3rem;
+  }
+}
