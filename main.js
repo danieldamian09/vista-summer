@@ -78,7 +78,7 @@ if(pasoActual === 1){
 //   }
 // });
 
-intro.addEventListener('load', function (e) {
+intro.addEventListener('load', function () {
   pasoActual = 1;
   console.log(pasoActual);
   audioUno.play()
@@ -130,3 +130,24 @@ capsulaCinco.addEventListener('click', function () {
   audioSeis.play()
   audioCinco.pause()
 })
+
+
+// capsulaUnoUp.addEventListener('click', function () {
+//   containerUno.style.display = 'block';
+// })
+
+// capsulaDosUp.addEventListener('click', function () {
+//   containerDos.style.display = 'block';
+// })
+
+// capsulaTresUp.addEventListener('click', function () {
+//   containerTres.style.display = 'block';
+// })
+
+// capsulaCuatroUp.addEventListener('click', function () {
+//   containerCuatro.style.display = 'block';
+// })
+
+// capsulaCincoUp.addEventListener('click', function () {
+//   containerCinco.style.display = 'block';
+// })

@@ -36,6 +36,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+
 }
 
 .bienvenida__text {
@@ -110,7 +111,6 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #000;
 }
 
 /* Instancia uno */
@@ -169,7 +169,7 @@
 .instancia__text_shadow {
   width: 90%;
   height: 18%;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-top: 15%;
   text-align: left;
   background: rgb(0 0 0 / 67%);
@@ -191,6 +191,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+
 }
 
 .instancia__two_img {
@@ -235,6 +236,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+
 }
 
 .instancia__three_img {
@@ -270,6 +272,7 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+
 }
 
 .instancia__four_img {
@@ -306,6 +309,7 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+
 }
 
 .instancia__five_img {
@@ -333,8 +337,6 @@
   text-transform: uppercase;
   text-align: center;
 }
-
-
 
 
 .content_capsula {
@@ -388,6 +390,7 @@
   height: 100vh;
   display: flex;
   justify-content: flex-end;
+
 }
 
 .container__intro p {
@@ -410,6 +413,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+
 }
 
 
@@ -464,6 +468,7 @@
   height: 100vh;
   position: relative;
   display: flex;
+
 }
 
 
@@ -512,6 +517,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+
 }
 
 
@@ -606,7 +612,7 @@
   left: 50%;
   /* margin-left: -13px; */
   font-size: 70px;
-  /* z-index: 2; */
+  z-index: 2;
 }
 
 
@@ -627,7 +633,7 @@
   left: 50%;
   /* margin-left: -13px; */
   font-size: 70px;
-  /* z-index: 2; */
+  z-index: 2;
 }
 
 .go-up .fa {

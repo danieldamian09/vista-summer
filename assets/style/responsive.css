@@ -1,7 +1,7 @@
 /* media query */
-@media (max-width: 700px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
 
-  .content__bienvenida{
+  .content__bienvenida {
     display: none;
   }
 
@@ -20,7 +20,7 @@
     height: 70%;
   }
 
-  .text-container{
+  .text-container {
     width: 42%;
   }
 
@@ -84,45 +84,45 @@
   }
 
   /* Instancia */
-  .instancia__one_img img{
+  .instancia__one_img img {
     width: 40rem;
     height: 70%;
   }
 
-  .instancia__one_text{
+  .instancia__one_text {
     margin-top: 1.5rem;
   }
-  
-  .instancia__one_title{
+
+  .instancia__one_title {
     font-size: 1rem;
   }
-  
-  .instancia__one_marlboro-vista-summer{
+
+  .instancia__one_marlboro-vista-summer {
     width: 80%;
     height: auto;
-    }
-  
-  .instancia__one_text{
+  }
+
+  .instancia__one_text {
     font-size: 0.7rem;
   }
 
-  .instancia__text_shadow{
+  .instancia__text_shadow {
     width: 70%;
     height: 25%;
     margin: 1.5rem auto;
   }
-  
-  .instancia__text_shadow p{
+
+  .instancia__text_shadow p {
     font-size: 0.6rem;
     text-align: center;
   }
 
-  .instancia__two_img img{
+  .instancia__two_img img {
     width: 40rem;
     height: 70%;
   }
 
-  .instancia__two_title{
+  .instancia__two_title {
     font-size: 1.5rem;
   }
 
@@ -131,11 +131,11 @@
     height: 70%;
   }
 
-  .instancia__four_title{
+  .instancia__four_title {
     width: 40%;
   }
 
-  .instancia__four_title p{
+  .instancia__four_title p {
     font-size: 1.3rem;
   }
 
@@ -144,7 +144,7 @@
     height: 70%;
   }
 
-  .instancia__five_title{
+  .instancia__five_title {
     width: 40%;
   }
 
@@ -153,25 +153,37 @@
     height: 70%;
   }
 
-  .instancia__five_title p{
+  .instancia__five_title p {
     font-size: 1.3rem;
   }
 }
 
-@media (min-width: 768px) {
-  .content__bienvenida{
+@media(max-width: 612px) and (orientation: portrait) {
+
+  .content__instancia {
     display: none;
   }
 
-  /* .content__instancia{
+  .content_intro {
     display: none;
   }
 
-  .content_intro{
+  .container__intro{
     display: none;
   }
 
-  .content_capsula{
+  .content_capsula {
     display: none;
-  } */
+  }
+
+  .container__instancia_six {
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  .content__bienvenida {
+    display: none;
+  }
+  
 }
